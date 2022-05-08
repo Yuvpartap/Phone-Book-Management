@@ -9,21 +9,21 @@ using namespace std;
 string first_name, last_name, phone_num;
 int count_start = 0;
 
-void start();                       // Yuvi                 
-void addContact();                  // Harman              
-void searchContact();               // Derek            
-void show_all();                    // Yuvi                     
-void help();                        // Harman           
-void self_exit();                   // Derek                                     
-void update();                      // Yuvi                                       
-void del();                         // Harman                                        
-void recycleBin();                  // Derek                                        
-void binDel(string);                // Derek            
-void cancel(string);                // Yuvi             
-void recents();                     // Harman              
-bool check_digits(string);          // All
-bool check_numbers(string);         // All  
-bool chDup(string);                 // All     
+void start();                                        
+void addContact();                                
+void searchContact();                       
+void show_all();                                         
+void help();                                   
+void self_exit();                                                        
+void update();                                                           
+void del();                                                                 
+void recycleBin();                                                          
+void binDel(string);                           
+void cancel(string);                            
+void recents();                                   
+bool check_digits(string);         
+bool check_numbers(string);          
+bool chDup(string);                     
 
 //Global File declaration
 fstream phone("number.txt",ios::app);
@@ -124,11 +124,6 @@ void start()
     cout << "\n\n\n\n\n\n";
     cout << "\n\t\t\t\t\t--------------------------------------------";
     cout << "\n\t\t\t\t\t|       PHONE BOOK MANAGEMENT SYSTEM       |";
-    cout << "\n\t\t\t\t\t--------------------------------------------";
-    cout << "\n\t\t\t\t\t|               By: Group-4                |";
-    cout << "\n\t\t\t\t\t|   Harmanpreet Singh     - 20BCS6501      |";
-    cout << "\n\t\t\t\t\t|   Yuvpartap Singh Klair - 20BCS6448      |";
-    cout << "\n\t\t\t\t\t|   Derek Samuel Austin   - 20BCS6489      |";
     cout << "\n\t\t\t\t\t--------------------------------------------";
     cout << "\n\n\n\n";
     char x=46; // "."
